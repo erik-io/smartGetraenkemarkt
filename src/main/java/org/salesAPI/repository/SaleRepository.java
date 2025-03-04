@@ -1,5 +1,6 @@
-package org.salesAPI.sales;
+package org.salesAPI.repository;
 
+import org.salesAPI.model.Sale;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

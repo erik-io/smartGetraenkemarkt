@@ -1,4 +1,4 @@
-package org.salesAPI.sales;
+package org.salesAPI.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

@@ -1,5 +1,7 @@
-package org.salesAPI.sales;
+package org.salesAPI.controller;
 
+import org.salesAPI.model.Sale;
+import org.salesAPI.service.SaleService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

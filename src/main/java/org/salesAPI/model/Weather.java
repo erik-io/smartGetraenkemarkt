@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import java.time.LocalDateTime;
 
 @Entity
-public class WeatherData {
+public class Weather {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -20,9 +20,9 @@ public class WeatherData {
     // Konstruktoren, Getter und Setter
 
     // Standard-Konstruktor
-    public WeatherData() {}
+    public Weather() {}
 
-    public WeatherData(String location, double temperature, double humidity, LocalDateTime importDate) {
+    public Weather(String location, double temperature, double humidity, LocalDateTime importDate) {
         this.location = location;
         this.temperature = temperature;
         this.humidity = humidity;
