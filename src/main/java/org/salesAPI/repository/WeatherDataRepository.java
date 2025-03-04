@@ -1,7 +1,7 @@
 package org.salesAPI.repository;
 
-import  org.salesAPI.model.WeatherData;
+import org.salesAPI.model.Weather;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface WeatherDataRepository extends JpaRepository<WeatherData, Long> {
+public interface WeatherDataRepository extends JpaRepository<Weather, Long> {
 }
